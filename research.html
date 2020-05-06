@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!-- MY PERSONAL PROJECTS PAGE -->
+
+<!-- HEADER -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>
+
+        Victor · Research
+
+    </title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="https://guides.github.com/favicon.ico">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/gridism.css">
+    <!-- (??) -->
+    <link rel="stylesheet" href="stylesheets/markdown.css">
+    <!-- OCTICONS -->
+    <link rel="stylesheet" href="stylesheets/octicons.css">
+    <!-- LAYOUT -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <!-- SOME COLORS -->
+    <link href="stylesheets/pygments.css" rel="stylesheet">
+
+    <script src="https://guides.github.com/javascripts/jquery.js" type="text/javascript"></script>
+    <script src="https://guides.github.com/javascripts/snap.svg-min.js" type="text/javascript"></script>
+    <script src="https://guides.github.com/javascripts/application.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-3769691-29']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script>
+        body { padding - bottom: 500px; }
+    </script>
+</head>
+
+
+<!-- BODY -->
+
+<body>
+    <!-- BANNER -->
+    <header>
+        <div class="wrap">
+            <!-- BANNER LINKS -->
+            <ul class="links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="research.html">research</a></li>
+                <li><a href="publications.html">publications</a></li>
+                <li><a href="teaching.html">teaching</a></li>
+                <li><a href="cv.html">cv</a></li>
+                <li><a href="fun.html">fun</a></li>
+                <!-- RSS FEED -->
+                <!-- <li class="nav-rss"><a href="https://guides.github.com/feed/index.xml"><span class="octicon octicon-rss"></span></a></li> -->
+            </ul>
+            <!-- LINK TO REPOSITORIES WITH PNG LOGO-->
+            <a href="https://github.com/vgandari"><img src="images/logo@2x.png" width="70" height="25"
+                    alt="Victor · Home"></a>
+        </div>
+    </header>
+
+    <article class="full">
+
+        <!-- TITLE BANNER -->
+        <div class="article-heading js-article-heading js-geopattern" style="background-image: url(images/sf.jpg)">
+            <div class="wrap">
+                <!-- ICON NEXT TO TITLE (I.E. MY NAME) -->
+                <div class="icon-container circular"></div>
+                <h1>Research</h1>
+
+            </div>
+        </div>
+
+        <!-- TOC SIDEBAR -->
+        <div class="wrap">
+            <div class="toc-wrapper">
+                <ol class="toc js-toc">
+                </ol>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="markdown-body content-body ">
+
+                <!-- SECTION ID -->
+                <p><a id="sc_attitude" title="Spacecraft Attitude Simulation" class="toc-item"></a></p>
+                <!-- SECTION BODY -->
+                <h3>Spacecraft Attitude Simulation</h3>
+                <p>I made a nonlinear simulation of a spacecraft's attitude in a circular orbit. It also generates
+                    plots! Check out the <a href="https://github.com/vgandari/sc_attitude" class="">GitHub
+                        repository</a> to play around with it.</p>
+
+                <!-- SECTION ID
+                <p><a id="massprops" title="Measuring Spacecraft Mass Properties" class="toc-item"></a></p>
+
+                <h3>Measuring Spacecraft Mass Properties (Rendezvous)</h3>
+                <p>This was the first project I atempted in my Principles of Dynamics class. I wanted to find a way to measure the mass properties of two spacecraft after rendezvous, where the mass properties of one or both of the individual spacecraft are known, but the two spacecraft configuration mass properties are unknown. <a href="portfolio/massprops.pdf" class="">PDF</a></p>
+                <p>The problem didn't work for this class, so I started over with <a href="School.html#angmom"> something else</a>.</p>
+            -->
+
+                <!-- SECTION ID -->
+                <p><a id="ms" title="Spacecraft Modeling and Simulation" class="toc-item"></a></p>
+                <!-- SECTION BODY -->
+                <h3>Satellite Rendezvous and Docking in LEO</h3>
+                <p>This project was for Professor Howell's Modeling and Simulation at Purdue University. Our task was to
+                    model the rendezvous of two spacecraft in orbit and create a video of them docking in orbit.
+                    Otherwise, the project was open-ended, and we applied a linear error-feedback controller to the
+                    spacecrafts' attitudes so they could dock properly.</p>
+                <p>The semester concluded with a presentation to NASA Johnson Space Center
+                    <!-- on 23 April 2013 -->. <a href="portfolio/blueppt.pdf" class="">Presentation (PDF)</a>, <a
+                        href="portfolio/simreport.pdf" class="">Report (PDF)</a>, and <a
+                        href="portfolio/WorkingControl.avi" class="">Video (AVI)</a>
+                </p>
+                <p>Authors (alphabetical):</p>
+                <p>Victor Gandarillas, Nick Kowalczyk, Mitch Sangalis, Collin York, Dan Zhou</a></p>
+
+                <!-- SECTION ID -->
+                <p><a id="vp" title="Principles of Dynamics" class="toc-item"></a></p>
+                <!-- SECTION BODY -->
+                <h3>Annihilation of Angular Momentum Bias and Velocity Pointing Errors</h3>
+                <p>This project was for Professor Longuski's Principles of Dynamics at Purdue University. I reproduced
+                    two publications, one on the annihilation of angular momentum bias, and the other on velocity
+                    pointing errors, for my semester project. <a href="portfolio/AngMom.pdf" class="">PDF</a></p>
+
+                <p>Publications:</p>
+                <p>
+                    [1] Longuski, J.M., Kia, T. and Breckenridge, W.G., "Annihilation of Angular Momentum Bias During
+                    Thrusting and Spinning-Up Maneuvers," Journal of the Astronautical Sciences, Vol. 37, No. 4, 1989,
+                    pp. 433-450.</p>
+                <p>
+                    [2] Javorsek II, D., Longuski, J.M., "Velocity Pointing Errors Associated with Spinning Thrusting
+                    Spacecraft," Journal of Spacecraft and Rockets, Vol. 37, No. 3, May-June 2000.</p>
+
+
+                <!-- SECTION ID -->
+                <p><a id="sd" title="Senior Design" class="toc-item"></a></p>
+                <!-- SECTION BODY -->
+                <h3>Prometheus: Manned Mission to Phobos</h3>
+                <p>This was my senior design project (<a href="portfolio/mySD.pdf" class="">PDF</a>). I was on the
+                    communications team, whose role was to minimize the power
+                    necessary to transmit continuous high banwidth feeds between Earth and Mars/Phobos. I was
+                    responsible for the vehicles in the vicinity of Mars. <a
+                        href="https://engineering.purdue.edu/AAE/Academics/Courses/aae450/2013/Spring" class="">Project
+                        website</a>, where the full report is available for download (several gigabytes).</p>
+
+                <!-- SECTION ID -->
+                <p><a id="gosat" title="Satellite Sensor Calibration" class="toc-item"></a></p>
+                <!-- SECTION BODY -->
+                <h3>Vicarious Calibration of GOSAT Satellite</h3>
+
+                <p>More information:</p>
+
+                <p><a href="portfolio/GOSATppt.pdf" class="">Presentation (PDF)</a></p>
+                <p><a href="portfolio/GOSATpaper.pdf" class="">Paper (PDF)</a></p>
+
+                <p> The goal of this research was to provide validation for GOSAT radiance values measured at three
+                    different wavelengths (760nm, 1600nm, 2060nm). I performed field operations support and the
+                    necessary data analysis to achieve this goal.</p>
+                <p>There were two components to this work:
+                    <p>1. Measurement of the surface radiance at Railroad Valley, NV (chosen for its homogeneity in
+                        reflectance).
+                        <p>2. Analysis of spectrometer data and generation of scale factor used for calibration of GOSAT
+                            data.
+
+                            <p>The reflectance values of another satellite, MODIS, were compared to the data collected
+                                by GOSAT. Whereas GOSAT takes a single measurement of a large footprint, MODIS takes an
+                                image with pixels about the same site as the areas measured on the ground (500x500m).
+                                The ratio of a single MODIS pixel (corresponding to Automated Spectrometer ASD site)
+                                to the average of select MODIS pixels (corresponding to the GOSAT footprint) was used to
+                                generate a scale factor between the GOSAT measurement and the ground measurement. That
+                                is, the degradation of the MODIS pixels was assumed to be uniform across the image, so
+                                the ratio of the reflectance at one ASD site to the entire GOSAT footprint would be the
+                                same no matter how much the MODIS sensors had degraded. This factor would serve as a
+                                conversion between the GOSAT measurements with degradation to the calbrated GOSAT
+                                measurements.</p>
+
+                            <h4>Scale Factor Code</h4>
+                            <p>Defines GOSAT footprint as an ellipse using data points from JAXA team</p>
+                            <p>Extracts pixels from MODIS image within GOSAT ellipse</p>
+                            <p>Calculates ratios of MODIS ellipse average radiance to MODIS ASD radiance for each band
+                            </p>
+                            <p>These ratios are necessary for calculating the overall surface reflectance of the area in
+                                the GOSAT footprint.</p>
+                            <p>Inputs ratios to radiative transfer code</p>
+
+
+                            <!-- SECTION ID -->
+                            <p><a id="icp" title="Intelligent Control for Performance" class="toc-item"></a></p>
+                            <!-- SECTION BODY -->
+                            <h3>Flight Operations for Intelligent Control for Performance</h3>
+                            <p>I led the flight operations for the FAST F-18 (TN 853) for the Performance Function
+                                Identification Flights. <a href="portfolio/FAST.pdf">Presentation (PDF)</a></p>
+
+                            <!-- SECTION ID -->
+                            <p><a id="suav" title="Small UAV Auto GCAS" class="toc-item"></a></p>
+                            <!-- SECTION BODY -->
+                            <h3>Small UAV Automatic Ground Collision Avoidance System</h3>
+                            <p>A carryover from a previous Air Force project on the F-16, the ultimate goal of this
+                                project is to install a Trajectory Prediction Algorithm with terrain mapping on General
+                                Aviation aircraft. I tested this algorithm and built the hardware-in-the-loop simulation
+                                to implement the software in a Piccolo Autopilot with a FlightGear interface. Later, I
+                                the ground operations for the small UAV that we used to characterize the terrain
+                                avoidance maneuvers.
+                                <!-- File not found <a href="portfolio/*.pdf">Presentation (PDF)</a> -->
+                            </p>
+
+                            <!-- SECTION ID -->
+                            <p><a id="pa1" title="Pad Abort 1" class="toc-item"></a></p>
+                            <!-- SECTION BODY -->
+                            <h3>Reconstruction of Pad Abort 1 Simulation with Flight Data</h3>
+                            <p>I reconstructed the ANTARES simulation of the Orion Pad Abort 1. I replaced the
+                                pre-flight models with the day-of-flight models (atmosphere, winds, engine temperature,
+                                updated mass properties, etc.) and ran Monte Carlo dispersions to test whether or not
+                                the trajectory matched the simulation within three-sigma uncertainty. <a
+                                    href="portfolio/PA1.pdf">Presentation (PDF)</a></p>
+
+                            <!-- SECTION ID -->
+                            <p><a id="t34" title="T-34 Pacer Instrumentation Pallet" class="toc-item"></a></p>
+                            <!-- SECTION BODY -->
+                            <h3>T-34 Modification: Instrumentation Pallet</h3>
+                            <p>I designed an instrumentation pallet for the T-34 to fly a chase mission. I was involved
+                                in CAD modeling, updating drawings, fit testing, and writing work orders for
+                                manufacturing.</p>
+                            <p> <a href="portfolio/T-34.pdf">Presentation (PDF)</a></p>
+
+                            <p class="last-updated">Last updated 6 May 2020</p>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="wrap">
+            <!-- GITHUB LOGO -->
+            <!-- <span class="mega-octicon octicon-mark-github"></span> -->
+            <p>
+                Site hosted on <a href="https://github.com/">GitHub</a><br>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
